@@ -1,0 +1,198 @@
+:root {
+    --primaryColor: rgb(216, 45, 165);
+}
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container {
+    width: 95%;
+    max-width: 1800px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+header h1 {
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 500;
+}
+header p {
+    font-size: 30px;
+    margin-top: 80px;
+}
+main h1 {
+    font-size: 50px;
+}
+p, li, a {
+    font-size: 25px;
+    line-height: 40px;
+}
+.card i {
+    font-size: 15px;
+}
+main a {
+    font-size: 20px;
+}
+.button {
+    padding: 8px 20px;
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 8px;
+}
+
+/* header */
+header .common-nav nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+header .common-nav .img img {
+    width: 100px;
+}
+header .common-nav nav ul {
+    display: flex;
+    gap: 30px;
+}
+header .common-nav nav .buttons {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+header .bgi {
+    background-image: url(https://weeding-event-management.netlify.app/assets/banner-4de0a1a2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header .overlay {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Wedding */
+main .wedding {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+main .wedding .img-area img {
+    width: 550px;
+    height: 750px;
+}
+main .wedding .text-area {
+    width: 50%;
+}
+main .wedding .text-area p {
+    margin: 60px 0 40px 0;
+}
+
+
+
+/* Services */
+
+main .services h1 {
+    text-align: center;
+    margin: 100px 0;
+} 
+main .services .cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+} 
+main .services .cards .card img {  
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+} 
+main .services .cards .card .text-area {  
+    padding: 30px 0 30px 30px;
+} 
+main .services .cards .card .text-area p {  
+    font-size: 22px;
+    margin: 10px 0;
+} 
+main .services .cards .card .text-area>span {  
+    font-size: 35px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 20px;
+}
+main .services .cards .card {  
+    border: 1px solid #4444442f;
+    border-radius: 20px;
+} 
+
+
+
+
+
+/* We Provide */
+
+main .bgi {
+    background-image: url(https://weeding-event-management.netlify.app/assets/frontBottomBaner-8e14d65a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 100px 0;
+}
+main .bgi .overlay {
+    height: 77vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+main .bgi .overlay .text-area p {
+    margin: 70px 0 50px 0;
+}
+main .bgi .overlay .text-area .button {
+    border: 1px solid white;
+    background: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+
+
+
+/* footer  */
+footer {
+    padding: 50px;
+}
+footer .icons {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+footer ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 40px 0;
+}
+footer small {
+    display: flex;
+    justify-content: center;
+}
+footer i {
+    font-size: 40px;
+    color: var(--primaryColor);
+}

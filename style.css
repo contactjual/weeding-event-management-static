@@ -12,7 +12,7 @@
 }
 .container {
     width: 95%;
-    max-width: 1800px;
+    max-width: 1500px;
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
 }
@@ -40,6 +40,9 @@ p, li, a {
 }
 main a {
     font-size: 20px;
+}
+header a, footer a {
+    color: black;
 }
 .button {
     padding: 8px 20px;

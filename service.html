@@ -1,25 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home-weeding-event-management</title>
+    <title>service</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
 
 
-</head>
+    <style>
+        header .bgi {
+            background-image: url(https://weeding-event-management.netlify.app/assets/servicesPage-75dd75aa.jpg);
+        }
+        header .overlay {
+            height: 400px;
+        }
+        header h1 {
+            position: relative;
+            font-size: 50px;
+            display: inline-block;
+        }
+        header h1::after {
+            content: '';
+            background-color: rgb(216, 45, 165);
+            width: 80px;
+            height: 2px;
+            position: absolute;
+            bottom: 0px;
+            left: 25%;
+            right: auto;
+        }
 
+        main .services{
+            margin: 150px 0;
+        }
+
+        footer {
+            background-color: #d3d3d38c;
+            padding: 150px 0;
+        }
+    </style>
+</head>
 <body>
     <header>
         <div class="container">
@@ -52,36 +78,16 @@
         <div class="bgi">
             <div class="overlay">
                 <div class="container">
-                    <div class="text-area">
-                        <h1>Welcome to our world of <br> wedding magic</h1>
-                        <p>We specialize in crafting extraordinary moments <br> that will make your special day truly
-                            unforgettable.</p>
-                    </div>
+                    <h1>Our Services</h1>
                 </div>
             </div>
         </div>
     </header>
+
     <main>
         <div class="container">
-            <!-- Wedding -->
-            <div class="wedding">
-                <div class="text-area">
-                    <h1>Wedding Dreams Come True</h1>
-                    <p>Welcome to our world of enchanting weddings. We specialize in crafting unforgettable moments that
-                        reflect your unique love story. Explore our services and embark on a journey where your wedding
-                        dreams become a beautiful reality.</p>
-                    <a href="" class="button">
-                        <span>Get Free Quote</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
-                <div class="img-area">
-                    <img src="img/hm-img1.jpeg" alt="">
-                </div>
-            </div>
             <!-- Services -->
             <div class="services">
-                <h1>Services</h1>
                 <div class="cards">
                     <div class="card">
                         <img src="img/hm-crd-img1.png" alt="">
@@ -92,7 +98,7 @@
                                         class="fa-solid fa-greater-than"></i><i
                                         class="fa-solid fa-greater-than"></i></a></p>
                             <span>$2500</span>
-                            <a href="dream.html" class="button">
+                            <a href="" class="button">
                                 <span>View Details</span>
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
@@ -103,11 +109,13 @@
                         <div class="text-area">
                             <h2>Seamless Coordination Wedding</h2>
                             <p>At Seamless Coordination, we specialize in transforming your wedding day into a seamless
-                                and stress-free exper... <a href=""> <span>Read more</span><i
-                                        class="fa-solid fa-greater-than"></i><i
-                                        class="fa-solid fa-greater-than"></i></a> </p>
+                                and
+                                stress-free exper...
+                                <a href=""> <span>Read more</span><i class="fa-solid fa-greater-than"></i><i
+                                        class="fa-solid fa-greater-than"></i></a>
+                            </p>
                             <span>$2000</span>
-                            <a href="seamless.html" class="button">
+                            <a href="" class="button">
                                 <span>View Details</span>
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
@@ -124,7 +132,7 @@
                                         class="fa-solid fa-greater-than"></i></a>
                             </p>
                             <span>$3000</span>
-                            <a href="magical.html" class="button">
+                            <a href="" class="button">
                                 <span>View Details</span>
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
@@ -141,7 +149,7 @@
                                         class="fa-solid fa-greater-than"></i></a>
                             </p>
                             <span>$1900</span>
-                            <a href="bespoke.html" class="button">
+                            <a href="" class="button">
                                 <span>View Details</span>
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
@@ -158,7 +166,7 @@
                                         class="fa-solid fa-greater-than"></i></a>
                             </p>
                             <span>$1500</span>
-                            <a href="cherished.html" class="button">
+                            <a href="" class="button">
                                 <span>View Details</span>
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
@@ -175,7 +183,7 @@
                                         class="fa-solid fa-greater-than"></i></a>
                             </p>
                             <span>$1800</span>
-                            <a href="effortless.html" class="button">
+                            <a href="" class="button">
                                 <span>View Details</span>
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
@@ -184,21 +192,10 @@
                 </div>
             </div>
         </div>
-        <!-- We Provide -->
-        <div class="bgi">
-            <div class="overlay">
-                <div class="container">
-                    <div class="text-area">
-                        <h1>We Provide the Best Service in <br> Industry</h1>
-                        <p>provide outstanding service through exceptional quality while <br> adding unique value in
-                            everything we do.</p>
-                        <a href="" class="button"><span>Get Free Quote</span><i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
     </main>
+
+
     <footer>
         <div class="container">
             <div class="icons">
@@ -224,10 +221,4 @@
         </div>
     </footer>
 </body>
-
 </html>
-
-<!-- hm-header-bgi:https://weeding-event-management.netlify.app/assets/banner-4de0a1a2.jpg -->
-<!-- hm-main-bgi:https://weeding-event-management.netlify.app/assets/frontBottomBaner-8e14d65a.png -->
-<!-- ab-header-bgi:https://weeding-event-management.netlify.app/assets/servicesPage-75dd75aa.jpg -->
-<!-- ct-header-bgi:https://weeding-event-management.netlify.app/assets/contactPage-d4348024.jpg -->

@@ -1,0 +1,75 @@
+.side-contant a {
+    color: black;
+}
+.main-contant .text>span {
+    font-size: 40px;
+    font-weight: 600;
+    display: block;
+    margin: 20px 0;
+}
+
+
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 100px 0;
+}
+.main-contant img {
+    width: 100%;
+}
+.main-contant {
+    width: 75%;
+    height: 100%;
+    padding: 15px;
+    border: 1px solid #4444442d;
+}
+.main-contant h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 20px 0 30px 0;
+}
+.side-contant img {
+    width: 100%;
+}
+.side-contant {
+    width: 22%;
+}
+.side-contant h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: -10px 0 20px 0;
+}
+.side-contant .side-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.side-contant .card {
+    padding: 15px;
+    border: 1px solid #4444442d;
+}
+
+
+
+
+
+/* responsive */
+@media screen and (max-width: 700px) {
+    .main-container {
+        flex-direction: column;
+        gap: 80px;
+    }
+    .main-contant {
+        width: 100%;
+        text-align: center;
+    }
+    .main-contant h1 {
+        font-size: 30px;
+    }
+    .side-contant {
+        width: 100%;
+        text-align: center;
+    }
+}

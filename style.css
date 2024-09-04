@@ -16,6 +16,9 @@
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
 }
+footer small {
+    font-size: 18px;
+}
 header h1 {
     font-size: 65px;
     line-height: 70px;
@@ -46,6 +49,9 @@ main a {
 }
 
 /* header */
+header {
+    background-color: #d3d3d38c;
+}
 header .common-nav nav {
     display: flex;
     justify-content: space-evenly;
@@ -148,7 +154,7 @@ main .bgi {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 100px 0;
+    margin: 150px 0 0 0;
 }
 main .bgi .overlay {
     height: 77vh;
@@ -175,7 +181,9 @@ main .bgi .overlay .text-area .button {
 
 /* footer  */
 footer {
-    padding: 50px;
+    /* padding: 200px 0; */
+    padding: 100px 0;
+    background-color: #d3d3d38c;
 }
 footer .icons {
     display: flex;

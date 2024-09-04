@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+
+    <style>
+        main .login-form h1 {
+            position: relative;
+            font-size: 50px;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 80px;
+        }
+
+        main .login-form h1::after {
+            content: '';
+            background-color: rgb(216, 45, 165);
+            width: 50px;
+            height: 2px;
+            position: absolute;
+            top: 85px;
+            left: 20%;
+            right: auto;
+        }
+
+
+
+        main .button {
+            display: block;
+            width: 150px;
+            text-align: center;
+        }
+
+        main .button a {
+            color: white;
+        }
+
+        main form label {
+            display: block;
+            margin: 15px 0;
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        main form input {
+            width: 500px;
+            height: 65px;
+            padding: 10px;
+            font-size: 22px;
+            border: 1px solid #44444410;
+            border-radius: 10px;
+            background-color: #44444410;
+        }
+        main .login-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 150px 0;
+        }
+        main form {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        main form input[type="checkbox"] {
+            width: 20px;
+        }
+        main form .terms {
+            display: flex;
+            gap: 10px;
+        }
+        main form .terms label {
+            font-size: 21px;
+            color: black;
+            font-weight: 400;
+        }
+        main form .terms label a {
+            color: black;
+            font-weight: 600;
+        }
+        main .gmail-button {
+            width: 230px;
+            text-align: center;
+            border: 3px solid rgb(216, 45, 165);
+            border-radius: 10px;
+            padding: 2px 20px;
+        }
+        main .gmail-button a {
+            color: rgb(216, 45, 165);
+            font-size: 18px;
+        }
+        main .gmail-button i {
+            margin-right: 6px;
+        }
+        main form .para p {
+            font-size: 20px;
+        }
+        main form .para a {
+            color: rgb(216, 45, 165);
+            font-weight: 500;
+        }
+    
+
+
+        footer {
+            background-color: #d3d3d38c;
+            padding: 150px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="common-nav">
+                <nav>
+                    <div class="img">
+                        <a href=""><img src="img/nav_img.png" alt=""></a>
+                    </div>
+                    <ul>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="service.html">
+                            <li>Service</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                    <div class="buttons">
+                        <a href="login.html" class="button">Login</a>
+                        <a href="register.html" class="button">Register</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="login-form">
+                <h1>Register</h1>
+                <form action="#">
+                    <div class="name">
+                        <label for="name">Your Name</label>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="photo">
+                        <label for="photo">Photo URL</label>
+                        <input type="text" placeholder="Enter photo URL">
+                    </div>
+                    <div class="mail">
+                        <label for="mail">Email address</label>
+                        <input type="email" id="mail" placeholder="Enter your email address">
+                    </div>
+                    <div class="pass">
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass" placeholder="Enter your password">
+                    </div>
+                    <div class="button">
+                        <a href="">Register</a>
+                    </div>
+                    <div class="terms">
+                        <input type="checkbox" id="terms">
+                        <label for="terms">Accept <a href="">Term & Conditions</a></label>
+                    </div>
+                    <div class="para">
+                        <p>Already Have An Account ? <a href="login.html">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="icons">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="service.html">
+                    <li>Service</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+            <small>Copyright © 2023 - All right reserved</small>
+        </div>
+    </footer>
+</body>
+
+</html>
